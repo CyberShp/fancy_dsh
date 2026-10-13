@@ -1,0 +1,14 @@
+.DS_Store
+.venv/
+.models/
+voice/
+reference/
+terminal/
+output/
+.playwright-cli/
+__pycache__/
+*.pyc
+node_modules/
+.env*
+state.json
+*.backup

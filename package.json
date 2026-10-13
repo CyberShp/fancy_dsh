@@ -1,0 +1,14 @@
+{
+  "name": "fancy-dsh",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Normandy startup sequence for DeepSeek Harness",
+  "engines": { "node": ">=22.19.0" },
+  "scripts": {
+    "preview": "python3 scripts/preview_cinematic.py",
+    "install:dsh": "node integration/install.mjs",
+    "uninstall:dsh": "node integration/install.mjs --uninstall",
+    "test": "node --test integration/test.mjs"
+  }
+}

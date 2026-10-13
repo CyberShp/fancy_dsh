@@ -1,0 +1,10 @@
+[
+  "README.md", "THIRD_PARTY_NOTICES.md", "package.json", "release-files.json", ".gitignore", "docs/preview.png",
+  "integration/install.mjs", "integration/launch.mjs", "integration/plugin.mjs", "integration/overlay.js", "integration/NormandyWindow.swift", "integration/test.mjs",
+  "scripts/preview_cinematic.py",
+  "dist/cinematic/index.html", "dist/cinematic/style.css", "dist/cinematic/app.js", "dist/cinematic/motion.js", "dist/cinematic/vessel.js",
+  "dist/cinematic/assets/cinematic.wav", "dist/cinematic/assets/cinematic-audio.json",
+  "dist/ship.js", "dist/vendor/three.module.js", "dist/vendor/three.core.min.js", "dist/vendor/THREE-LICENSE.txt",
+  "dist/assets/fonts/michroma.css", "dist/assets/fonts/michroma-0.ttf", "dist/assets/fonts/michroma-OFL.txt",
+  "dist/assets/fonts/rajdhani.css", "dist/assets/fonts/rajdhani-0.ttf", "dist/assets/fonts/rajdhani-1.ttf", "dist/assets/fonts/rajdhani-2.ttf", "dist/assets/fonts/rajdhani-3.ttf", "dist/assets/fonts/rajdhani-OFL.txt"
+]

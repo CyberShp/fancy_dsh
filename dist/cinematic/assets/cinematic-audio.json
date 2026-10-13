@@ -1,0 +1,626 @@
+{
+  "file": "cinematic.wav",
+  "duration": 24.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "frames": 1152000,
+  "encoding": "PCM_16",
+  "bytes": 4608044,
+  "sha256": "04a0112600429fbedea1a9ed9894a49d007469f6b734be3b4fe17271747cb426",
+  "voice_cues": [
+    {
+      "id": "initialize",
+      "at_seconds": 0.65,
+      "duration_seconds": 1.9597916666666666,
+      "end_seconds": 2.6097916666666667,
+      "text": "Normandy systems initializing.",
+      "subtitle": "诺曼底系统正在初始化。",
+      "source_file": "dist/assets/audio/initialize.wav",
+      "source_sample_rate": 24000,
+      "source_frames": 47035,
+      "source_channels": 1,
+      "source_sha256": "9bd372b123ac84d2703a7f46b6a485ecffea2ce6057cb9e48ed948a85c9e3608",
+      "gain": 1.353766206161347,
+      "included_frames": 94070,
+      "fully_included": true,
+      "voice_rms": 0.145,
+      "effects_rms_during_voice": 0.004830023078207372,
+      "voice_over_effects_rms_db": 29.54837592774723
+    },
+    {
+      "id": "identity",
+      "at_seconds": 7.0,
+      "duration_seconds": 2.08,
+      "end_seconds": 9.08,
+      "text": "Identity confirmed, Commander Shepard.",
+      "subtitle": "身份已确认，薛帕德指挥官。",
+      "source_file": "dist/assets/audio/identity.wav",
+      "source_sample_rate": 24000,
+      "source_frames": 49920,
+      "source_channels": 1,
+      "source_sha256": "1d7ce59472ce820c264072a5980f88235c64a3c26378f68982ed7fe265d17b6f",
+      "gain": 0.9888175195068327,
+      "included_frames": 99840,
+      "fully_included": true,
+      "voice_rms": 0.12068336369301863,
+      "effects_rms_during_voice": 0.0034412853641319803,
+      "voice_over_effects_rms_db": 30.898534378569856
+    },
+    {
+      "id": "skills",
+      "at_seconds": 10.35,
+      "duration_seconds": 2.48,
+      "end_seconds": 12.83,
+      "text": "Scanning local skills. Mapping capabilities.",
+      "subtitle": "正在扫描本地技能，映射可用能力。",
+      "source_file": "dist/assets/audio/skills.wav",
+      "source_sample_rate": 24000,
+      "source_frames": 59520,
+      "source_channels": 1,
+      "source_sha256": "aa0be3d7ffe248613516d3d0a577d5c3d3ec37c16b31231a2b592319bf3f9174",
+      "gain": 0.9887748943874471,
+      "included_frames": 119040,
+      "fully_included": true,
+      "voice_rms": 0.13810735898993332,
+      "effects_rms_during_voice": 0.0035805216228917574,
+      "voice_over_effects_rms_db": 31.725410391926346
+    },
+    {
+      "id": "mcp",
+      "at_seconds": 14.95,
+      "duration_seconds": 1.92,
+      "end_seconds": 16.87,
+      "text": "Reading MCP configuration.",
+      "subtitle": "正在读取 MCP 配置。",
+      "source_file": "dist/assets/audio/mcp.wav",
+      "source_sample_rate": 24000,
+      "source_frames": 46080,
+      "source_channels": 1,
+      "source_sha256": "ea0ed93b77b897d0c7898ca62ef8abec034b2eba7cc6e12117af945dd2112faa",
+      "gain": 0.9887748943874471,
+      "included_frames": 92160,
+      "fully_included": true,
+      "voice_rms": 0.1356191979033176,
+      "effects_rms_during_voice": 0.0032404111801073252,
+      "voice_over_effects_rms_db": 32.43442099153902
+    },
+    {
+      "id": "ready",
+      "at_seconds": 19.5,
+      "duration_seconds": 1.5302083333333334,
+      "end_seconds": 21.030208333333334,
+      "text": "Command interface ready.",
+      "subtitle": "指挥界面已就绪。",
+      "source_file": "dist/assets/audio/ready.wav",
+      "source_sample_rate": 24000,
+      "source_frames": 36725,
+      "source_channels": 1,
+      "source_sha256": "83ae359bb3e7063094e9e6a795c7951c99cc42790484e1ef5cb13cd3a66f4d07",
+      "gain": 1.7467522973441703,
+      "included_frames": 73450,
+      "fully_included": true,
+      "voice_rms": 0.145,
+      "effects_rms_during_voice": 0.014267745959378826,
+      "voice_over_effects_rms_db": 20.140252684333863
+    },
+    {
+      "id": "welcome",
+      "at_seconds": 21.7,
+      "duration_seconds": 1.31,
+      "end_seconds": 23.01,
+      "text": "Welcome aboard, Commander.",
+      "subtitle": "欢迎登舰，指挥官。",
+      "source_file": "dist/assets/audio/welcome.wav",
+      "source_sample_rate": 24000,
+      "source_frames": 31440,
+      "source_channels": 1,
+      "source_sha256": "8b0f70ccc991e1612dd422304a749796fb013d624b833214e1f02fc06dba3f74",
+      "gain": 0.9888175195068327,
+      "included_frames": 62880,
+      "fully_included": true,
+      "voice_rms": 0.12522831729337558,
+      "effects_rms_during_voice": 0.006103966827702408,
+      "voice_over_effects_rms_db": 26.241807603980668
+    }
+  ],
+  "scenes": [
+    {
+      "id": "n7_assembly",
+      "start_seconds": 0.0,
+      "end_seconds": 3.2,
+      "peak": 0.671661376953125,
+      "rms": 0.11742651066174754,
+      "clipped_samples": 0
+    },
+    {
+      "id": "normandy_arrival",
+      "start_seconds": 3.2,
+      "end_seconds": 6.8,
+      "peak": 0.321441650390625,
+      "rms": 0.06054721511273032,
+      "clipped_samples": 0
+    },
+    {
+      "id": "identity_scan",
+      "start_seconds": 6.8,
+      "end_seconds": 10.0,
+      "peak": 0.697540283203125,
+      "rms": 0.09845654089058928,
+      "clipped_samples": 0
+    },
+    {
+      "id": "skills_scan",
+      "start_seconds": 10.0,
+      "end_seconds": 14.6,
+      "peak": 0.700347900390625,
+      "rms": 0.1029270059073726,
+      "clipped_samples": 0
+    },
+    {
+      "id": "mcp_scan",
+      "start_seconds": 14.6,
+      "end_seconds": 19.0,
+      "peak": 0.69342041015625,
+      "rms": 0.09269787402499678,
+      "clipped_samples": 0
+    },
+    {
+      "id": "final_jump",
+      "start_seconds": 19.0,
+      "end_seconds": 24.0,
+      "peak": 0.70391845703125,
+      "rms": 0.10853513600660393,
+      "clipped_samples": 0
+    }
+  ],
+  "effects": [
+    {
+      "id": "ship_power_bed",
+      "at_seconds": 0,
+      "duration_seconds": 24.0,
+      "action_at_seconds": 0,
+      "pan_start": 0.0,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.030953778327509108
+    },
+    {
+      "id": "n7_power_charge",
+      "at_seconds": 0,
+      "duration_seconds": 0.46,
+      "action_at_seconds": 0.46,
+      "pan_start": 0.0,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.20379056777470023
+    },
+    {
+      "id": "n7_particle_1",
+      "at_seconds": 0.25,
+      "duration_seconds": 0.3,
+      "action_at_seconds": 0.25,
+      "pan_start": 0.95,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.049882537138385176
+    },
+    {
+      "id": "n7_particle_2",
+      "at_seconds": 0.39,
+      "duration_seconds": 0.3,
+      "action_at_seconds": 0.39,
+      "pan_start": -0.95,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.049868355789670506
+    },
+    {
+      "id": "n7_power_impact",
+      "at_seconds": 0.46,
+      "duration_seconds": 1.55,
+      "action_at_seconds": 0.46,
+      "pan_start": 0.0,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.29196275331329946
+    },
+    {
+      "id": "n7_particle_3",
+      "at_seconds": 0.56,
+      "duration_seconds": 0.3,
+      "action_at_seconds": 0.56,
+      "pan_start": 0.95,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.04985201600399643
+    },
+    {
+      "id": "n7_particle_4",
+      "at_seconds": 0.81,
+      "duration_seconds": 0.3,
+      "action_at_seconds": 0.81,
+      "pan_start": -0.95,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.050069205131474885
+    },
+    {
+      "id": "n7_particle_5",
+      "at_seconds": 1.13,
+      "duration_seconds": 0.3,
+      "action_at_seconds": 1.13,
+      "pan_start": 0.95,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.04996391504703749
+    },
+    {
+      "id": "n7_particle_6",
+      "at_seconds": 1.51,
+      "duration_seconds": 0.3,
+      "action_at_seconds": 1.51,
+      "pan_start": -0.95,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.050102706230513425
+    },
+    {
+      "id": "n7_particle_7",
+      "at_seconds": 1.94,
+      "duration_seconds": 0.3,
+      "action_at_seconds": 1.94,
+      "pan_start": 0.95,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.050173145072658104
+    },
+    {
+      "id": "n7_particle_8",
+      "at_seconds": 2.48,
+      "duration_seconds": 0.3,
+      "action_at_seconds": 2.48,
+      "pan_start": -0.95,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.050211013462065905
+    },
+    {
+      "id": "arrival_inhale",
+      "at_seconds": 2.62,
+      "duration_seconds": 0.58,
+      "action_at_seconds": 3.2,
+      "pan_start": 0.0,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.2329089169214442
+    },
+    {
+      "id": "n7_particle_9",
+      "at_seconds": 2.72,
+      "duration_seconds": 0.3,
+      "action_at_seconds": 2.72,
+      "pan_start": 0.95,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.05040372475860915
+    },
+    {
+      "id": "arrival_jump_impact",
+      "at_seconds": 3.2,
+      "duration_seconds": 1.7,
+      "action_at_seconds": 3.2,
+      "pan_start": 0.0,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.33937955232410966
+    },
+    {
+      "id": "normandy_flyby",
+      "at_seconds": 3.24,
+      "duration_seconds": 2.7,
+      "action_at_seconds": 4.58,
+      "pan_start": -0.95,
+      "pan_end": 0.95,
+      "pre_duck_peak": 0.29143380343954484
+    },
+    {
+      "id": "arrival_engine_settle",
+      "at_seconds": 5.55,
+      "duration_seconds": 0.95,
+      "action_at_seconds": 5.55,
+      "pan_start": 0.2,
+      "pan_end": 0.2,
+      "pre_duck_peak": 0.04226428850269903
+    },
+    {
+      "id": "identity_scan",
+      "at_seconds": 6.8,
+      "duration_seconds": 1.55,
+      "action_at_seconds": 6.8,
+      "pan_start": -0.7,
+      "pan_end": 0.7,
+      "pre_duck_peak": 0.07809288437350546
+    },
+    {
+      "id": "identity_scan_engage",
+      "at_seconds": 6.8,
+      "duration_seconds": 0.36,
+      "action_at_seconds": 6.8,
+      "pan_start": 0.0,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.1232675066791478
+    },
+    {
+      "id": "identity_lock_left",
+      "at_seconds": 9.38,
+      "duration_seconds": 0.48,
+      "action_at_seconds": 9.600000000000001,
+      "pan_start": -0.95,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.10080653421247665
+    },
+    {
+      "id": "identity_lock_right",
+      "at_seconds": 9.46,
+      "duration_seconds": 0.48,
+      "action_at_seconds": 9.600000000000001,
+      "pan_start": 0.95,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.10169753890065714
+    },
+    {
+      "id": "identity_lock_center",
+      "at_seconds": 9.600000000000001,
+      "duration_seconds": 0.4,
+      "action_at_seconds": 9.600000000000001,
+      "pan_start": 0.0,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.050302446979410796
+    },
+    {
+      "id": "skills_scan_upper",
+      "at_seconds": 10.0,
+      "duration_seconds": 1.9,
+      "action_at_seconds": 10.0,
+      "pan_start": -0.7,
+      "pan_end": 0.7,
+      "pre_duck_peak": 0.08009658299993923
+    },
+    {
+      "id": "skills_scan_upper_engage",
+      "at_seconds": 10.0,
+      "duration_seconds": 0.36,
+      "action_at_seconds": 10.0,
+      "pan_start": 0.0,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.12212684603528495
+    },
+    {
+      "id": "skills_scan_lower",
+      "at_seconds": 12.85,
+      "duration_seconds": 1.2,
+      "action_at_seconds": 12.85,
+      "pan_start": -0.7,
+      "pan_end": 0.7,
+      "pre_duck_peak": 0.08080362318590051
+    },
+    {
+      "id": "skills_scan_lower_engage",
+      "at_seconds": 12.85,
+      "duration_seconds": 0.36,
+      "action_at_seconds": 12.85,
+      "pan_start": 0.0,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.12505383706089288
+    },
+    {
+      "id": "skills_lock_left",
+      "at_seconds": 14.12,
+      "duration_seconds": 0.48,
+      "action_at_seconds": 14.34,
+      "pan_start": -0.95,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.10108953701242607
+    },
+    {
+      "id": "skills_lock_right",
+      "at_seconds": 14.2,
+      "duration_seconds": 0.48,
+      "action_at_seconds": 14.34,
+      "pan_start": 0.95,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.10216534519963531
+    },
+    {
+      "id": "skills_lock_center",
+      "at_seconds": 14.34,
+      "duration_seconds": 0.4,
+      "action_at_seconds": 14.34,
+      "pan_start": 0.0,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.05072487611854415
+    },
+    {
+      "id": "mcp_scan_upper",
+      "at_seconds": 14.6,
+      "duration_seconds": 1.65,
+      "action_at_seconds": 14.6,
+      "pan_start": -0.7,
+      "pan_end": 0.7,
+      "pre_duck_peak": 0.09078978871531436
+    },
+    {
+      "id": "mcp_scan_upper_engage",
+      "at_seconds": 14.6,
+      "duration_seconds": 0.36,
+      "action_at_seconds": 14.6,
+      "pan_start": 0.0,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.12313298052554185
+    },
+    {
+      "id": "mcp_scan_lower",
+      "at_seconds": 17.05,
+      "duration_seconds": 1.15,
+      "action_at_seconds": 17.05,
+      "pan_start": -0.7,
+      "pan_end": 0.7,
+      "pre_duck_peak": 0.08910243676967662
+    },
+    {
+      "id": "mcp_scan_lower_engage",
+      "at_seconds": 17.05,
+      "duration_seconds": 0.36,
+      "action_at_seconds": 17.05,
+      "pan_start": 0.0,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.12355086042978036
+    },
+    {
+      "id": "final_jump_inhale",
+      "at_seconds": 18.0,
+      "duration_seconds": 1.0,
+      "action_at_seconds": 19.0,
+      "pan_start": 0.0,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.266436645709499
+    },
+    {
+      "id": "mcp_lock_left",
+      "at_seconds": 18.35,
+      "duration_seconds": 0.48,
+      "action_at_seconds": 18.57,
+      "pan_start": -0.95,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.10188248239896135
+    },
+    {
+      "id": "mcp_lock_right",
+      "at_seconds": 18.43,
+      "duration_seconds": 0.48,
+      "action_at_seconds": 18.57,
+      "pan_start": 0.95,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.1030568428648265
+    },
+    {
+      "id": "mcp_lock_center",
+      "at_seconds": 18.57,
+      "duration_seconds": 0.4,
+      "action_at_seconds": 18.57,
+      "pan_start": 0.0,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.05120012335059764
+    },
+    {
+      "id": "final_jump_impact",
+      "at_seconds": 19.0,
+      "duration_seconds": 1.45,
+      "action_at_seconds": 19.0,
+      "pan_start": 0.0,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.3522622335765672
+    },
+    {
+      "id": "final_jump_pass",
+      "at_seconds": 19.01,
+      "duration_seconds": 1.95,
+      "action_at_seconds": 19.8,
+      "pan_start": 0.9,
+      "pan_end": -0.9,
+      "pre_duck_peak": 0.2784110622362062
+    },
+    {
+      "id": "arrival_chord_1",
+      "at_seconds": 19.02,
+      "duration_seconds": 4.98,
+      "action_at_seconds": 19.02,
+      "pan_start": -0.6,
+      "pan_end": -0.6,
+      "pre_duck_peak": 0.03333666646304312
+    },
+    {
+      "id": "arrival_chord_2",
+      "at_seconds": 19.02,
+      "duration_seconds": 4.98,
+      "action_at_seconds": 19.02,
+      "pan_start": 0.0,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.024769206492129017
+    },
+    {
+      "id": "arrival_chord_3",
+      "at_seconds": 19.02,
+      "duration_seconds": 4.98,
+      "action_at_seconds": 19.02,
+      "pan_start": 0.6,
+      "pan_end": 0.6,
+      "pre_duck_peak": 0.03364815659183949
+    },
+    {
+      "id": "arrival_chord_4",
+      "at_seconds": 19.02,
+      "duration_seconds": 4.98,
+      "action_at_seconds": 19.02,
+      "pan_start": -0.6,
+      "pan_end": -0.6,
+      "pre_duck_peak": 0.017403449685067057
+    },
+    {
+      "id": "arrival_chord_5",
+      "at_seconds": 19.02,
+      "duration_seconds": 4.98,
+      "action_at_seconds": 19.02,
+      "pan_start": 0.0,
+      "pan_end": 0.0,
+      "pre_duck_peak": 0.012939994841568807
+    },
+    {
+      "id": "arrival_chord_6",
+      "at_seconds": 19.02,
+      "duration_seconds": 4.98,
+      "action_at_seconds": 19.02,
+      "pan_start": 0.6,
+      "pan_end": 0.6,
+      "pre_duck_peak": 0.017404210033910347
+    },
+    {
+      "id": "ready_light",
+      "at_seconds": 21.14,
+      "duration_seconds": 0.48,
+      "action_at_seconds": 21.14,
+      "pan_start": -0.4,
+      "pan_end": -0.4,
+      "pre_duck_peak": 0.07599114665760076
+    },
+    {
+      "id": "welcome_light",
+      "at_seconds": 23.03,
+      "duration_seconds": 0.62,
+      "action_at_seconds": 23.03,
+      "pan_start": 0.4,
+      "pan_end": 0.4,
+      "pre_duck_peak": 0.05935280599227111
+    }
+  ],
+  "mix_statistics": {
+    "peak": 0.70391845703125,
+    "rms": 0.0986961695962183,
+    "clipped_samples": 0,
+    "channel_statistics": [
+      {
+        "peak": 0.70391845703125,
+        "rms": 0.0986317657222597,
+        "clipped_samples": 0
+      },
+      {
+        "peak": 0.699951171875,
+        "rms": 0.09876053147102969,
+        "clipped_samples": 0
+      }
+    ],
+    "stereo_difference_rms": 0.013202640620983717,
+    "peak_before_master": 0.7039251402872257,
+    "master_gain": 1.0
+  },
+  "ducking": {
+    "gain_during_voice": 0.21,
+    "reduction_db": -13.555614105321613,
+    "attack_seconds": 0.11,
+    "release_seconds": 0.26
+  },
+  "renderer": "scripts/mix_cinematic_audio.py; deterministic NumPy synthesis",
+  "validation": {
+    "readback_format": true,
+    "all_six_voice_clips_fully_included": true,
+    "peak_at_or_below_0_9": true,
+    "clipped_samples": 0,
+    "audible_review": "Not assessed"
+  }
+}
